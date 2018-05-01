@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.example.android.ward81.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:text="@string/main_title"
+            android:textColor="@color/colorForText"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/club_desc_a"
+            android:textColor="@color/colorForText"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="56dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@color/colorBlood"></View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/club_desc_b"
+            android:textColor="@color/colorForText"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="56dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@color/colorBlood"></View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/club_desc_c"
+            android:textColor="@color/colorForText"
+            android:textSize="16sp" />
+
+        <ImageView
+            style="@style/DJImage"
+            android:contentDescription="@string/dj_image"
+            android:src="@drawable/dj_protrudi" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/club_1"
+                style="@style/ClubImages"
+                android:layout_weight="1"
+                android:contentDescription="@string/ward81_a"
+                android:src="@drawable/ward81_a" />
+
+            <ImageView
+                android:id="@+id/club_2"
+                style="@style/ClubImages"
+                android:layout_weight="1"
+                android:contentDescription="@string/ward81_b"
+                android:src="@drawable/ward81_b" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/UnorderedList"
+                android:text="@string/club_schedule_m" />
+
+            <TextView
+                style="@style/UnorderedList"
+                android:text="@string/club_schedule_t" />
+
+            <TextView
+                style="@style/UnorderedList"
+                android:text="@string/club_schedule_w" />
+
+            <TextView
+                style="@style/UnorderedList"
+                android:text="@string/club_schedule_th" />
+
+            <TextView
+                style="@style/UnorderedList"
+                android:text="@string/club_schedule_f" />
+
+            <TextView
+                style="@style/UnorderedList"
+                android:text="@string/club_schedule_sa" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="56dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorBlood"></View>
+
+        <TextView
+            android:id="@+id/club_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/club_address"
+            android:textColor="@color/colorForText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/club_tele"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/club_tele"
+            android:textColor="@color/colorForText"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</ScrollView>
+

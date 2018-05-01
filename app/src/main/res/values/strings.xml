@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Ward 81</string>
+
+    <string name="main_title">Ward 81 Nightclub</string>
+
+    <string name="club_desc_a">Albuquerque\'s celebrated witchhouse nightclub located in the 4th quadrant.</string>
+    <string name="club_desc_b">Award winning DJs five nights a week Tuesday through Saturday featuring House DJ Protrudi. </string>
+    <string name="club_desc_c">Five dance floors including our infamous Cinderella Ballroom. Three full bars and the Night View rooftop lounge await you.</string>
+
+    <string name="dj_image">DJ Protrudi</string>
+    <string name="ward81_a">Club 1</string>
+    <string name="ward81_b">Club 2</string>
+
+    <string name="club_schedule_m">&#8226; &#8195;Sunday and Monday: Closed</string>
+    <string name="club_schedule_t">&#8226; &#8195;Tuesday: 6pm - midnight</string>
+    <string name="club_schedule_w">&#8226; &#8195;Wednesday: 6pm - midnight</string>
+    <string name="club_schedule_th">&#8226; &#8195;Thursday: 6pm - midnight</string>
+    <string name="club_schedule_f">&#8226; &#8195;Friday: 6pm - 2am</string>
+    <string name="club_schedule_sa">&#8226; &#8195;Saturday: 6pm - 2am</string>
+
+    <string name="club_address">2001 Eubank Blvd. NE, Albuquerque, NM, 87112</string>
+    <string name="club_tele">505 &#8211;555&#8211;1212</string>
+
+
+</resources>
