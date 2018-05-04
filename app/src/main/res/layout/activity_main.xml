@@ -129,13 +129,23 @@
             android:background="@color/colorBlood"></View>
 
         <TextView
-            android:id="@+id/club_address"
+            android:id="@+id/club_address_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:gravity="center"
-            android:padding="8dp"
-            android:text="@string/club_address"
+            android:paddingTop="8dp"
+            android:text="@string/club_address_1"
+            android:textColor="@color/colorForText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/club_address_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:text="@string/club_address_2"
             android:textColor="@color/colorForText"
             android:textSize="16sp" />
 
